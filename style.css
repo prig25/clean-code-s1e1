@@ -124,9 +124,6 @@ li > label {
 li > input[type="text"] {
   width: 226px;
 }
-li > button.delete:hover {
-  color: #cf2323;
-}
 button.delete img {
   height: 2em;
   transform: rotateZ(45deg);
@@ -153,5 +150,14 @@ ul li.editMode input[type="text"] {
 }
 
 ul li.editMode label {
+  display: none;
+}
+
+.menu-completed__item p {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.menu-todo__item p {
   display: none;
 }
