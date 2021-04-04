@@ -18,9 +18,11 @@ body {
 }
 
 @media (max-width: 768px) {
+
   .header {
     text-align: center;
   }
+  
 }
 .main {
   display: block;
@@ -145,8 +147,7 @@ ul li input[type="text"] {
   display: none;
 }
 
-ul li.editMode input[type="text"],
-.main-edit-mod__input {
+ul li.editMode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
